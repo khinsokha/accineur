@@ -1,0 +1,690 @@
+.burger1 div {
+    width: 25px;
+    height: 3px;
+    background-color: #007DC4;
+    margin: 3px;
+}
+.burger1 {
+    border: 2px solid #007DC4;
+    border-radius: 7px;
+}
+
+.blog-burger {
+    margin-top: 20px;
+}
+.nav-logo-burger {
+    display: inline-flex;
+}
+/*============ we use for navigation */
+@media only screen and (max-width: 600px) {
+    .logo1 a img {
+        padding: 6px;
+        margin-top: 3px;
+        width: 141px;
+    }
+    .blog-burger {
+      
+        margin: 9px 0px;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    .logo1 a img {
+        padding: 6px;
+        margin-top: 3px;
+        width: 200px;
+    }
+    .blog-burger {
+      
+        margin: 9px 0px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .logo1 a img {
+        padding: 6px;
+        margin-top: 3px;
+        width: 225px;
+    }
+    .blog-burger {
+        margin: 9px 0px;
+    }
+    .burger1 div {
+        width: 31px;
+        height: 3px;
+        background-color: #007DC4;
+        margin: 4.3px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1036px) {
+    .wrapper-burger {
+        display: none;
+    }
+    .navigation {
+        display: block;
+    }
+}
+@media only screen and (max-width: 1036px) {
+    .wrapper-burger {
+        display: block;
+    }
+    .navigation {
+        display: none;
+    }
+}
+
+
+/*=responsive======responsive========responsive=========== responsive */
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .example {
+        background: red;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    .example {
+        background: green;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .example {
+        background: blue;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    .example {
+        background: orange;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    .example {
+        background: pink;
+    }
+}
+
+
+/*=========================== Navigation =================== border top style============================ */
+
+.main-nav {
+    height: 67px;
+    background: rgba(255, 255, 255, 0.95) none repeat;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+.nav li {
+    color: #003463;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav li a {
+    font-weight: bold;
+    padding: 22px 7px;
+    font-size: 16px;
+    margin: 0px 4px;
+    position: relative;
+}
+
+.logo a img {
+    padding: 20px;
+}
+
+.main-nav ul li a:hover {
+    color: #003462;
+    transition: .9s;
+}
+
+.main-nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%) scale(0);
+    -webkit-transform: translate(-50%) scale(0);
+    transform-origin: 50% 50%;
+    width: 100%;
+    height: 3px;
+    background-color: rebeccapurple;
+    -webkit-transform: transform 250ms;
+    transform: transform 250s;
+    transition: .5s;
+}
+
+.main-nav ul li a:hover::after {
+    transition: .9s;
+    transform: translate(-50%) scale(1);
+}
+
+
+/* ========================================================================================= */
+
+.carousel-item img {
+    height: 400px;
+}
+
+@media screen and (max-width:568px) {
+    .carousel-item img {
+        height: 350px;
+    }
+}
+
+@media (max-width: 676px) {
+    .carousel-item img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 375px) {
+    .carousel-item img {
+        height: 200px;
+    }
+}
+
+
+/*======================================= container of paragraph */
+
+/*============================= controller of paragraph and images */
+
+.container .controller {
+    box-shadow: 0px 0px 14px -14px;
+}
+
+.container .controller h2 {
+    color: #003462;
+    font-size: 39px;
+}
+
+.container .controller span {
+    color: #007DC4;
+}
+
+.controller .main-text {
+    padding: 30px 0px 0px 30px;
+    margin-top: 10px;
+}
+
+.controller .image1 {
+    margin-top: 45px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.controller .main-text ul {
+    padding-inline-start: 0px;
+}
+
+.controller .main-text ul li {
+    margin-left: 0px;
+    list-style-type: none;
+    display: inline-flex;
+    color: #1F4C75;
+}
+
+.controller .main-text ul li h3 {
+    font-size: 20px;
+    margin-right: 22px;
+}
+
+.controller .main-text ul li i {
+    color: #007DC4;
+    font-size: 20px;
+    margin-right: 4px;
+}
+
+.main-text p {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/*======================Read more control paragraph ========================*/
+
+input.read-more-state {
+    display: none;
+}
+
+p.read-more-target {
+    font-size: 0px;
+    font-family: 'Inter', sans-serif !important;
+    max-height: 0;
+    opacity: 0;
+    transition: .25s ease;
+}
+
+input.read-more-state:checked~div.read-more-wrap p.read-more-target {
+    font-size: 18px;
+    max-height: 999em;
+    opacity: 1;
+}
+
+input.read-more-state~label.read-more-trigger:before {
+    content: 'Read more';
+}
+
+input.read-more-state:checked~label.read-more-trigger:before {
+    content: 'Read less';
+}
+
+label.read-more-trigger {
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+/*====================================== blog description */
+
+input.read2-more-state {
+    display: none;
+}
+
+p.read2-more-target {
+    font-size: 0px;
+    font-family: 'Inter', sans-serif !important;
+    max-height: 0;
+    opacity: 0;
+    transition: .25s ease;
+}
+
+input.read2-more-state:checked~div.read2-more-wrap p.read2-more-target {
+    font-size: 18px;
+    max-height: 999em;
+    opacity: 1;
+}
+
+input.read2-more-state~label.read2-more-trigger:before {
+    content: 'Read more';
+}
+
+input.read2-more-state:checked~label.read2-more-trigger:before {
+    content: 'Read less';
+}
+
+label.read2-more-trigger {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.paapaa {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* ========================== this is the first, second third blog======== */
+
+.card {
+    border: none;
+}
+
+.blog-description {
+    height: 95%;
+    box-shadow: 0px 0px 14px -11px;
+    margin-top: 36px;
+    border-radius: 1%;
+}
+
+.blog-description h2 {
+    color: #003462;
+    font-size: 29px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.blog-description span {
+    color: #007DC4;
+}
+
+.blog-description .tick-of-header {
+    display: inline-flex;
+}
+
+.tick-of-header i {
+    margin-top: 3px;
+}
+
+.blog-description ul li i {
+    color: #007DC4;
+    font-size: 20px;
+    margin-right: 4px;
+    list-style-type: lower-greek;
+}
+
+.blog-description h3 {
+    font-size: 20px;
+    color: #003462;
+}
+
+.blog-description p {
+    padding: 0px 16px;
+}
+
+.point li {
+    margin: 7.5px 0px;
+}
+
+
+/*=============================== for intion and download application  */
+
+.size-blog {
+    box-shadow: -2px 0px 18px -12px;
+    padding: 11px 40px;
+    background-color: rgb(252, 221, 227);
+    margin: 47px 1px;
+    border-radius: 12px;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: #212529;
+}
+
+.contacts a:hover {
+    color: rgb(233, 20, 20);
+}
+
+.contacts h3 {
+    color: #003E90;
+}
+
+.contacts i {
+    margin-right: 8.5px;
+}
+
+.contacts span {
+    color: #0069D9;
+}
+
+button img {
+    width: 27px;
+    margin-right: 11px;
+}
+
+.download {
+    margin: auto;
+}
+
+.btn {
+    margin: 1px 0px;
+    width: 70%;
+    font-size: 16px;
+}
+
+
+/*==================Application Process =============n  */
+
+.blue {
+    background-color: #003462;
+    color: #eee;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.blue2 {
+    background-color: #007DC4;
+    color: #eee;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.blue p,
+.blue2 p {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .class-image img {
+        width: 500px;
+    }
+}
+
+
+/*=========================== News and Event================ */
+
+.date-time {
+    padding: 0px;
+}
+
+.fifty-percent {
+    color: #eeeeee;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+.fifty-percent p {
+    font-weight: bold;
+}
+
+.date-time>div:nth-child(even) {
+    background-color: #007DC4;
+}
+
+.date-time>div:nth-child(odd) {
+    background-color: #003462;
+}
+
+.col-padding1 {
+    padding: 0px 0px 0px 14px;
+}
+
+.col-padding1 img {
+    width: 100%;
+    height: auto;
+}
+
+.date-blog {
+    padding: 13px;
+}
+
+.clock {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+.abc {
+    padding: 5px 15px;
+}
+
+
+/* =======================Footer blog============== */
+
+.the-first-footer ul li{
+    display: table-cell;
+    list-style-type: none;
+}
+.the-first-footer ul li a{
+    color: #eee;
+    text-decoration: none;
+}
+.the-first-footer ul {
+    padding: 0px;
+}
+.the-first-footer address {
+    cursor: pointer;
+}
+.the-first-footer textarea {
+    float: right;
+}
+.the-first-footer .icons{
+    margin-right: 12px;
+}
+.the-first-footer input {
+    width: 80%;
+    float: right;
+}
+.fa-map-marker-alt:before {
+    margin-right: 12px;
+    font-size: 25px;
+    color: #eee;
+    content: "\f3c5";
+}
+.fa-envelope:before {
+    margin-right: 12px;
+    font-size: 25px;
+    color: #eee;
+    content: "\f0e0";
+}
+.fa-phone-square-alt:before {
+    margin-right: 12px;
+    font-size: 25px;
+    color: #eee;
+    content: "\f87b";
+}
+.footer {
+    background-color: #003462;
+    color: #eee;
+}
+.footer .col-lg-4 {
+    margin-top: 20px;
+}
+.footer-hr {
+    margin-top: 4px;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid #eee;
+}
+.the-first-footer2 {
+    color: #eee
+}
+.the-first-footer2 ul{
+    text-align: right;
+}
+.the-first-footer2 ul li a {
+    color: #eee;
+}
+.the-first-footer2 ul li {
+    list-style-type: none;
+}
+.the-first-footer2 .face-twitter li {
+    display: inline-flex;
+}
+.the-first-footer2 .face-twitter li i{
+    font-size: 43px;
+   
+}
+.the-first-footer2 .face-twitter li{
+   
+    padding: 0px 0px 0px 20px;
+}
+.the-first-footer2 .face-twitter li i:hover {
+    box-shadow: 0px 0px 12px 6px red ;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.footer-botton {
+    background-color: #007DC4;
+}
+.pull-right {
+    float: right;
+}
+.footer-botton .pm {
+    padding: 20px;
+    color: #eee;
+}
+.bizsolution img {
+    vertical-align: baseline;
+    border-style: none;
+}
+    
+  
+/* ================Maps ============*/
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 370px;
+    width: auto;
+    padding: 0px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 370px;
+    width: auto;
+}
+
+/* Extra small devices (phones, 400px and down) */
+
+@media only screen and (max-width: 400px) {
+    .container .controller h2 {
+        color: #003462;
+        font-size: 31px;
+    }
+    .blog-description {
+        height: 617px;
+        box-shadow: 0px 0px 14px -11px;
+        margin-top: 36px;
+        border-radius: 1%;
+    }
+    .download h1 {
+        font-size: 1.6rem;
+    }
+    .download .btn {
+        margin: 1px 0px;
+        width: 100%;
+        font-size: 16px;
+    }
+    .blue h1 {
+        font-size: 28px;
+        line-height: 1.1;
+    }
+    .the-first-footer2 ul {
+        text-align: center;
+        padding: 0px;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .the-first-footer2 ul {
+        text-align: center;
+        padding: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
